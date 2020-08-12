@@ -1,0 +1,102 @@
+
+.top-nav {
+    height: 114px;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+}
+.top-nav .navbar-toggler i {
+    color:  #000;
+    margin-top: 20px;
+}
+.fa {
+    color: #4183d7;
+}
+span {
+    font-size: 15px;
+}
+.top-nav .nav-item.active a.nav-link, .top-nav li a.nav-link:hover {
+    border-bottom: 3px solid #35cbdf;
+    color: #35cbdf;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+}
+.top-nav .navbar-nav li .nav-link {
+    color: #000;
+    font-size: 14px;
+    padding: 29px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+}
+
+.top-nav .navbar-collapse.show {
+    background-color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
+.intro .display-4 {
+    font-size: 2rem;
+}
+.section {
+    display: block;
+    padding-top: 0;
+}
+.section {
+    display: block;
+    padding-top: 30px;
+}
+.info-section {
+    float: left;
+    width: 100%;
+    padding: 4rem 0;
+    position: relative;
+    z-index: 1;
+    background-color: #53b848
+}
+.heading.heading-icon {
+    display: block;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.our-webcoderskull .cnt-block {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 36px 20px;
+    text-align: center;
+    border: 2px solid #d5d5d5;
+    margin: 0 0 28px;
+}
+
+.footer {
+    padding: 10px 0;
+    color: #ccc;
+    background-color: #222;
+}
+.ft-b {
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
